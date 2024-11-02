@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片展示</title>
+</head>
+<body>
+    <h1>我的圖片集</h1>
+    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image1.jpg" alt="Image 1" style="width: 100%; max-width: 600px;">
+    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image2.jpg" alt="Image 2" style="width: 100%; max-width: 600px;">
+    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image3.jpg" alt="Image 3" style="width: 100%; max-width: 600px;">
+</body>
+</html>
