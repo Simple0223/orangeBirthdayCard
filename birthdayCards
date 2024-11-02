@@ -7,8 +7,6 @@
 </head>
 <body>
     <h1>我的圖片集</h1>
-    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image1.jpg" alt="Image 1" style="width: 100%; max-width: 600px;">
-    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image2.jpg" alt="Image 2" style="width: 100%; max-width: 600px;">
-    <img src="https://raw.githubusercontent.com/your-repo/your-folder/image3.jpg" alt="Image 3" style="width: 100%; max-width: 600px;">
+    <img src="https://github.com/Simple0223/SimplePicture/blob/main/+jHBD.png?raw=true" alt="Image 1" style="width: 100%; max-width: 600px;">
 </body>
 </html>
