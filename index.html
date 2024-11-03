@@ -20,7 +20,7 @@
 </head>
 <body>
     <h1>大家寫給敬司的生日卡片～</h1>
-    <h4>長按可以下載卡片唷</h4>
+    <h4>手機瀏覽器長按、電腦瀏覽器右鍵可以下載卡片唷</h4>
     <h2>信博</h2>
     <img src="https://github.com/Simple0223/orangeBirthdayCard/blob/main/simple_to_orange.png?raw=true" alt="Image 1">
     <h2>芝琳</h2>
@@ -38,9 +38,24 @@
     <h2>芳怡</h2>
     <img src="https://github.com/Simple0223/orangeBirthdayCard/blob/main/%E5%90%B1%E5%90%B1%E5%8D%A1%E7%89%87_%E8%97%8D.jpg?raw=true" alt="Image 1">
 
-    <audio autoplay loop>
+    <audio id="bg-music" loop>
         <source src="https://raw.githubusercontent.com/Simple0223/orangeBirthdayCard/main/Happy%20Birthday%20Rock.mp3" type="audio/mpeg">
         您的瀏覽器不支援音樂播放。
     </audio>
+    
+    <script>
+        let isPlaying = false; // 避免多次觸發播放
+
+        window.addEventListener('scroll', () => {
+            const audio = document.getElementById('bg-music');
+            if (!isPlaying) {
+                audio.play().then(() => {
+                    isPlaying = true;
+                }).catch((error) => {
+                    console.log('自動播放受限，需要用戶互動。');
+                });
+            }
+        });
+    </script>
 </body>
 </html>
